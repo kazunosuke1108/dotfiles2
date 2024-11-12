@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# git submodule update
+alias sm_update="git submodule update --init --recursive"
+# git submodule delete
+sm_delete() {
+  git submodule deinit -rf $1
+  git rm -rf $1
+  rm -rf .git/modules/$1
+}

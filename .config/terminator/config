@@ -1,0 +1,80 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#300a24"
+    background_darkness = 0.7
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Ubuntu Mono 20
+    foreground_color = "#ffffff"
+    scrollback_infinite = True
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 1459:279
+      maximised = False
+      fullscreen = False
+      size = 3034, 1505
+      title = ytpc2021a@ytpc2021a-HP-ENVY-TE01-1xxx: ~/decwest_workspace
+      last_active_term = 8a481e7d-0a17-4227-b279-f7d991dfe2f8
+      last_active_window = True
+    [[[child1]]]
+      type = VPaned
+      parent = child0
+      order = 0
+      position = 750
+      ratio = 0.5
+    [[[child2]]]
+      type = HPaned
+      parent = child1
+      order = 0
+      position = 1514
+      ratio = 0.4998349290194784
+    [[[terminal3]]]
+      type = Terminal
+      parent = child2
+      order = 0
+      profile = default
+      uuid = 8a481e7d-0a17-4227-b279-f7d991dfe2f8
+      directory = decwest_workspace
+    [[[terminal4]]]
+      type = Terminal
+      parent = child2
+      order = 1
+      profile = default
+      uuid = e9b2b54e-10fa-4f4b-a843-e660b182560c
+      directory = decwest_workspace
+    [[[child5]]]
+      type = HPaned
+      parent = child1
+      order = 1
+      position = 1514
+      ratio = 0.4998349290194784
+    [[[terminal6]]]
+      type = Terminal
+      parent = child5
+      order = 0
+      profile = default
+      uuid = 029e7576-7b7f-4272-a1f2-ea30cfb515af
+      directory = decwest_workspace
+    [[[terminal7]]]
+      type = Terminal
+      parent = child5
+      order = 1
+      profile = default
+      uuid = da9ada66-8078-430e-8a62-7efbf2a9b197
+      directory = decwest_workspace
+  [[terminator_default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
